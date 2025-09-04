@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int var=10;
+    int var2=20;
+    int* const ptr=&var;
+    cout<<"before adress"<<ptr<<endl;
+    cout<<"before value"<<*ptr<<endl;
+    *ptr =20;
+    cout<<"after adress"<<ptr<<endl;
+    cout<<"after value "<<*ptr<<endl;
+    const int *ptr2=&var;
+    cout<<"before adress"<<ptr2<<endl;
+    cout<<"before value"<<*ptr2<<endl;
+    ptr2 =&var2;
+    cout<<"after adress"<<ptr2<<endl;
+    cout<<"after value "<<*ptr2<<endl;
+    
+    return 0;
+    
+}
