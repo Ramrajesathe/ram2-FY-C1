@@ -1,0 +1,7 @@
+Enter Number of rows for a triangle:-
+5
+ * 
+ *  * 
+ *  *  * 
+ *  *  *  * 
+ *  *  *  *  * 
